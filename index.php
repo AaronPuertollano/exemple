@@ -10,7 +10,7 @@
     
 <form action="enviar.php" method="get">
   Nom:  <input type="text" name="nom" id="nom"><br>
-  Contrasenya:  <input type="text" name="cont" id="cont"><br>
+  Contrasenya:  <input type="text" name="pass" id="pass"><br>
   <input type="submit" value="enviar"><br>
 </form>
 
