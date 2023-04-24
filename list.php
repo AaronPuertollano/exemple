@@ -1,14 +1,15 @@
 <?php
-// dades BD
+
+// definir parametres de dades BD
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "test";:
+$dbname = "test";
 
-//conexio a la BD
-$connection = new mysqli($servername, $username, $dbname)
-if($connection ->  connect_error){
-    die(header("Location.error.php"));
+//conexio BD
+$connection = new mysqli($servername, $username, $password, $dbname)
+if ($connection -> connect_error) {
+    die(header('location:error.php'))
 }
 
 //seleccionam tots registres de taula usuaris

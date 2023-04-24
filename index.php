@@ -8,7 +8,7 @@
 </head>
 <body>
     
-<form action="enviar.php" method="get">
+<form action="enviar.php" method="post">
   Nom:  <input type="text" name="nom" id="nom"><br>
   Contrasenya:  <input type="text" name="pass" id="pass"><br>
   <input type="submit" value="enviar"><br>
